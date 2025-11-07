@@ -13,7 +13,7 @@ model = genai.GenerativeModel("gemini-2.5-flash")
 # --- Konfigurasi halaman Streamlit
 st.set_page_config(page_title="AskMind AI Chatbot", page_icon="🤖", layout="centered")
 
-# --- CSS kustom untuk gaya modern (💅)
+# --- CSS untuk gaya modern
 st.markdown("""
     <style>
         .chat-container {
@@ -63,12 +63,16 @@ st.markdown("</div>", unsafe_allow_html=True)
 
 # --- Simpan riwayat chat
 if "messages" not in st.session_state:
-    st.session_state.messages = []
+    # tambahkan pesan sambutan pertama kali
+    st.session_state.messages = [{
+        "role": "assistant",
+        "content": "👋 Halo! Saya **AskMind AI**, chatbot pengetahuan umum berbasis Google Gemini.\n\nSilakan tanyakan apa saja seputar sains, sejarah, teknologi, atau hal menarik lainnya!"
+    }]
 
 # --- Container chat
 st.markdown("<div class='chat-container'>", unsafe_allow_html=True)
 
-# --- Tampilkan riwayat pesan dengan gaya kartu
+# --- Tampilkan riwayat chat
 for msg in st.session_state.messages:
     role_class = "user-msg" if msg["role"] == "user" else "bot-msg"
     st.markdown(f"<div class='{role_class}'>{msg['content']}</div>", unsafe_allow_html=True)
