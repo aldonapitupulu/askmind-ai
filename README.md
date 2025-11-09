@@ -21,14 +21,7 @@ Aplikasi ini dikembangkan menggunakan Python dan dideploy melalui Streamlit Clou
 🛠️ Teknologi yang Digunakan
 KomponenTeknologiBahasa PemrogramanPython 3.10Framework UIStreamlitAPI Model AIGoogle Generative AI (Gemini)Manajemen LingkunganMinicondaDeploymentStreamlit CloudPenyimpanan Kunci Rahasiadotenv (.env)
 
-📂 Struktur Folder Proyek
-AskMindAI/
-│
-├── app.py                # File utama Streamlit
-├── test_gemini.py        # File uji koneksi ke API Gemini
-├── requirements.txt      # Daftar dependencies
-├── .env                  # File berisi API key (tidak diupload ke GitHub)
-└── README.md             # Dokumentasi proyek
+AskMindAI/ │ ├── app.py # File utama Streamlit ├── test_gemini.py # File uji koneksi ke API Gemini ├── requirements.txt # Daftar dependencies ├── .env # File berisi API key (tidak diupload ke GitHub) └── README.md # Dokumentasi proyek
 
 
 ⚙️ Cara Menjalankan di Lokal
