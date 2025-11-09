@@ -64,6 +64,7 @@ dan chatbot siap digunakan 🎉
 
 👨‍💻 Pengembang
 Nama: Aldo Napitupulu
+
 Proyek: Chatbot Pengetahuan Umum (AskMind AI)
 
 📜 Lisensi
