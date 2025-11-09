@@ -69,6 +69,3 @@ Proyek: Chatbot Pengetahuan Umum (AskMind AI)
 
 📜 Lisensi
 Proyek ini bersifat open source untuk keperluan pembelajaran dan pengembangan pribadi.
-
-Kalau kamu mau, saya bisa bantu buatkan file README.md ini otomatis di dalam folder proyek, biar tinggal kamu push ke GitHub.
-Apakah kamu mau saya bantu buatkan langsung file-nya di VS Code?
