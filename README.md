@@ -21,7 +21,20 @@ Aplikasi ini dikembangkan menggunakan Python dan dideploy melalui Streamlit Clou
 🛠️ Teknologi yang Digunakan
 KomponenTeknologiBahasa PemrogramanPython 3.10Framework UIStreamlitAPI Model AIGoogle Generative AI (Gemini)Manajemen LingkunganMinicondaDeploymentStreamlit CloudPenyimpanan Kunci Rahasiadotenv (.env)
 
-AskMindAI/ │ ├── app.py # File utama Streamlit ├── test_gemini.py # File uji koneksi ke API Gemini ├── requirements.txt # Daftar dependencies ├── .env # File berisi API key (tidak diupload ke GitHub) └── README.md # Dokumentasi proyek
+royek ini bertujuan untuk membuat aplikasi chatbot sederhana menggunakan Streamlit sebagai *interface* dan Google Gemini API sebagai *Large Language Model* (LLM) di belakangnya.
+
+## 🚀 Struktur Folder Proyek
+
+Untuk memastikan struktur folder ditampilkan dengan benar, saya menggunakan blok kode:
+
+```text
+AskMindAI/
+│
+├── app.py                # File utama Streamlit
+├── test_gemini.py        # File uji koneksi ke API Gemini
+├── requirements.txt      # Daftar dependencies
+├── .env                  # File berisi API key
+└── README.md             # Dokumentasi proyek
 
 
 ⚙️ Cara Menjalankan di Lokal
@@ -51,8 +64,6 @@ dan chatbot siap digunakan 🎉
 👨‍💻 Pengembang
 Nama: Aldo Napitupulu
 Proyek: Chatbot Pengetahuan Umum (AskMind AI)
-Mata Kuliah: Kecerdasan Buatan / Pemrograman Berbasis AI
-Dosen Pengampu: [Isi Nama Dosen Anda]
 
 📜 Lisensi
 Proyek ini bersifat open source untuk keperluan pembelajaran dan pengembangan pribadi.
