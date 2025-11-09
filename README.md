@@ -35,6 +35,7 @@ AskMindAI/
 ├── requirements.txt      # Daftar dependencies
 ├── .env                  # File berisi API key
 └── README.md             # Dokumentasi proyek
+```
 
 
 ⚙️ Cara Menjalankan di Lokal
